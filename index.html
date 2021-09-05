@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    
+
+    <!-- font awesome cdn  -->
+
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.4/css/pro.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap.css">
+    <!-- costamize css -->
+
+    <link rel="stylesheet" href="style.css">
+    
+    <title> Template assignment </title>
+  </head>
+  <body>
+    <!-- code start  -->
+   
+
+    <!-- header start  -->
+    
+ <header> 
+   <div class="container w-75">
+     <div class="row g-0">
+       <div class="col-lg-1">
+         <div class="logo">
+           <img src="img/logo.png" alt="">
+         </div>
+       </div>
+       <div class="col-lg-6">
+         <nav>
+           <ul> 
+             <li> <a class="active" href="#"> Home </a></li>
+             <li> <a href="#"> Blog </a></li>
+             <li> <a href="#"> Protfolio </a></li>
+             <li> <a href="#"> My resume  </a></li>
+             <li> <a href="#"> Contuct </a></li>
+           </ul>
+         </nav>
+       </div>
+
+       <div class="col-lg-3">
+           <div class="search-bar">
+             <input class="form-control" type="search" name="" id="" placeholder="Search"> 
+           </div>
+       </div>
+       <div class="col-lg-2">
+         <div class="btn-tag">
+          <button type="button" class="btn btn-outline-success">Search</button>
+         </div>
+       </div>
+     </div>
+   </div>
+ </header>
+
+<!-- header end  -->
+
+<!-- breadcrumb start  -->
+<div class="bred mt-5">
+  <div class="container w-75">
+    <div class="row">
+      <div class="col-lg-7">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">Home</li>
+          </ol>
+        </nav>
+        
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a class="text-decoration-none text-info " href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Library</li>
+          </ol>
+        </nav>
+        
+       
+      </div>
+
+        <div class="col-lg-4">
+          <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+             
+              <strong class="me-auto">Bootstrap</strong>
+              <small>11 mins ago</small>
+              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+              Hello, world! This is a toast message.
+            </div>
+          </div>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- breadcrumb end  -->
+
+<!-- banner start -->
+
+<div class="banner">
+  <div class="container-fluid">
+    <div class="row g-0">
+      <div class="col-lg-12">
+         
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/banner.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://i.pinimg.com/originals/37/e8/84/37e88440aad120762e6db1553d18682e.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://i.pinimg.com/originals/37/e8/84/37e88440aad120762e6db1553d18682e.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- banner end -->
+
+<!-- .alert-section start -->
+<div class="container w-75  mt-5 mb-4">
+    <div class="row g-0 ">
+      <div class="col-lg-12">
+        <div class="alert alert-success alert-dismissible fade show p-2" role="alert">
+          <strong>Well done!</strong> <br> you successfully read this important alert message.
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        
+      </div>
+    </div>
+
+  </div>
+<!-- .alert-section end -->
+
+ <!-- skill section start  -->
+
+    <div class="skils">
+      <div class="container w-75">
+         <div class="row"> 
+           <div class="col-lg-6">
+
+            <div class="progress mb-2">
+              <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="progress mb-2">
+              <div class="progress-bar progress-bar-animated
+              progress-bar-striped bg-success" role="progressbar" style="width: 20%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="progress mb-3">
+              <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" style="width: 40%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="progress mb-2">
+              <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="progress mb-2">
+              <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width: 80%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+            </div>
+           </div>
+
+
+
+
+
+
+           <div class="col-lg-6">
+            <div id="accordion" role="tablist">
+              <div class="card">
+                <div class="card-header" role="tab" id="headingOne">
+                  <h5 class="mb-0">
+                    <a class="durpara" data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Collapsible Group Item #1
+                    </a>
+                  </h5>
+                </div>
+            
+                <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" role="tab" id="headingTwo">
+                  <h5 class="mb-0">
+                    <a class="collapsed durpara" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Collapsible Group Item #2
+                    </a>
+                  </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" role="tab" id="headingTwo">
+                  <h5 class="mb-0">
+                    <a class="collapsed durpara" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Collapsible Group Item #3
+                    </a>
+                  </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+         </div>
+
+
+
+
+
+         <div class="row">
+           <div class="col-md-5 mt-5">
+              <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  click here to learn more thing 
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima cum tenetur iure corrupti consequuntur reprehenderit dolores totam molestiae, ab maxime quam sequi cupiditate. Eos fugit, eligendi quas iure nam fugiat?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+           </div>
+           <div class="col-md-7 mt-5">
+            <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+              Tooltip on top
+            </button>
+            <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip on right">
+              Tooltip on right
+            </button>
+            <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip on bottom">
+              Tooltip on bottom
+            </button>
+            <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+              Tooltip on left
+            </button>
+           </div>
+         </div>
+
+
+
+
+
+
+      </div>
+    </div>
+  
+
+ <!-- skill section end  -->
+
+<div class="container w-75 mt-5">
+
+  <div class="row">
+
+    
+        <div class="col-lg-12">
+
+          <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+            <a class="navbar-brand" href="#"><b> Project Name </b></a>
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading1">Verse 1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading2">Verse 2</a>
+              </li>
+              
+            </ul>
+          </nav>
+          <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+            <h4 id="scrollspyHeading1"> Verse 1</h4>
+            <p> </p>
+            <h4 id="scrollspyHeading2"> </h4>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quos repellat cumque iusto, architecto incidunt porro quisquam sint dicta necessitatibus. Explicabo qui cupiditate assumenda beatae eos quam nisi, nostrum cumque error et illo repudiandae dolores iste voluptatem. Architecto est dolor quia, commodi earum dolore vero doloribus voluptate culpa ab veritatis fuga harum soluta at eligendi animi praesentium incidunt odit doloremque?</p>
+            
+            <h4 id="scrollspyHeading5"> Verse 2</h4>
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem ipsum suscipit, possimus dolores iusto necessitatibus? Adipisci, vero fugit, doloremque beatae unde cum cupiditate eaque expedita deleniti laboriosam ut labore omnis tempore, quod voluptatum autem quam et. Provident voluptatum eligendi asperiores sequi voluptate dolor animi natus expedita ea quam, voluptas maiores debitis maxime </p>
+          </div>
+     
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- pagination start -->
+  <div class="container w-75 mt-5">
+       <div class="row">
+        <div class="col-lg-4 offset-4">
+          <nav aria-label="...">
+            <ul class="pagination">
+              <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item active" aria-current="page">
+                <a class="page-link" href="#">2</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-lg-4">
+
+               <!-- Split dropup button -->
+    <div class="btn-group dropup">
+      <button type="button" class="btn btn-secondary">
+        Split dropup
+      </button>
+      <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="visually-hidden">Toggle Dropdown</span>
+      </button>
+      <ul class="dropdown-menu text-left p-2">
+        <li class="pb-3"> <a class="text-decoration-none text-black " href="#"> Action </a></li>
+        <li> <a class="text-decoration-none text-black " href="#"> Another Action  </a></li>
+  
+      </ul>
+    </div>
+    
+        </div>
+    
+       </div>
+  </div>
+<!-- pagination end -->
+
+
+
+<!-- footer star -->
+<footer class="bg-info text-white p-3"> 
+  <div class="container text-center">
+    <div class="row">
+      <span> &copy; All Rights Reserved By Md kamal </span>
+    </div>
+  </div>
+</footer>
+<!-- footer end -->
+
+
+   <!-- code end  -->
+ 
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+-->
+
+
+<script>
+  var toastTrigger = document.getElementById('liveToastBtn')
+var toastLiveExample = document.getElementById('liveToast')
+if (toastTrigger) {
+toastTrigger.addEventListener('click', function () {
+ var toast = new bootstrap.Toast(toastLiveExample)
+
+ toast.show()
+})
+}
+
+
+
+</script>
+
+<script>
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+</script>
+
+  </body>
+</html>
